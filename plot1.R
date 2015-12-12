@@ -1,4 +1,3 @@
-setwd("C:/coursera/ExData_Project1")
 datafile<-"household_power_consumption.txt"
 power <- read.table(datafile, header=T, sep=";")
 power$Date <- as.Date(power$Date, format="%d/%m/%Y")
